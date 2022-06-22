@@ -1,0 +1,71 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;700;900&family=Neuton:wght@200;400;700&display=swap');
+
+
+
+$font-family:'Cinzel';
+$font-family-2: 'Neuton', monospace;
+
+//$/primary-font-family: 'Cinzel', serif;
+//$body-font-family: 'Open Sans', monospace;
+
+
+//Display fonts sizes
+$display-font-size-2xl: 5.3rem;
+$display-font-size-xl: 4.6rem;
+$display-font-size-lg: 4rem;
+$display-font-size-md: 3rem;
+$display-font-size-sm: 2.5rem;
+$display-font-size-xs: 2rem;
+
+//Body fonts sizes
+$body-font-size-xl: 1.7rem;
+$body-font-size-lg: 1.5rem;
+$body-font-size-md: 1.3rem;
+$body-font-size-sm: 1.1rem;
+$body-font-size-xs: 12rem;
+
+
+//Display fonts weights
+$display-font-regular: 400;
+$display-font-medium: 700;
+$display-font-bold: 900;
+
+
+//Body fonts weights
+$body-font-regular: 200;
+$body-font-medium: 400;
+$body-font-bold: 700;
+
+
+h1 {
+    font-family: $font-family;
+    font-size: $display-font-size-2xl;
+    font-weight: $display-font-bold;
+  }
+
+  h2 {
+    font-family: $font-family;
+    font-size: $display-font-size-lg;
+    font-weight: $display-font-bold;
+  }
+
+  h3 {
+    font-family: $font-family;
+    font-size: $display-font-size-md;
+    font-weight: $display-font-medium;
+  }
+
+  h3 {
+    font-family: $font-family;
+    font-size: $display-font-size-sm;
+    font-weight: $display-font-bold;
+  }
+
+  p {
+      font-family: $font-family-2;
+      font-size: $body-font-size-md;
+      font-weight: $body-font-regular;
+  }
+

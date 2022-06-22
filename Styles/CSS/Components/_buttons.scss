@@ -1,0 +1,16 @@
+@import "../Base/typography";
+@import "../Base/colors";
+
+.btn {
+  
+    border-style: solid;
+    border-width: 2px;
+    border-color: $primary-color;
+    width: 8rem;
+    height: 2rem;
+    text-align: center;
+    line-height: 2rem;
+    border-radius: 3px;
+   
+    
+}

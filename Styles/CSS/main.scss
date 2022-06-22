@@ -1,5 +1,4 @@
-@use 'colors';
+@import "../CSS/Base/typography";
+@import "../CSS/Base/colors";
+@import "../CSS/Components/buttons";
 
-.pc {
- color: red;
-}
