@@ -1,4 +1,5 @@
-* {
-  background-color: red;
+@use 'colors';
+.pc {
+  color: red;
 }
 /*# sourceMappingURL=main.css.map */
